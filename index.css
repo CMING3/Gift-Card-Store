@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "myfont";
+  src: url("../font/basic_alphabet.woff") format('woff');
+}
+@font-face {
+  font-family: "myfont";
+  src: url("../font/basic_alphabet.woff") format('woff');;
+}
+  /**
+  *! slideshow
+  **/
+  #banner{
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 100px;
+    margin:0;
+    width: 100%;
+    min-height: 80vh;
+  }
+
+  #bannerInner{
+    --bs-gutter-x: 0 !important;
+  }
+
+  @keyframes slideInFromBottom{
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  #reveal{
+    animation: 1s ease-out 0s 1 slideInFromBottom;
+    background-image: url(images/reveal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 0px;
+  }
+
+  #reveal p{
+    align-items: center;
+    text-align: center;
+    font-family: myfont;
+  }
+
+
+
+  #bscarousel{
+    margin-top:0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0px;
+    display:block;
+    overflow:hidden;
+}
+

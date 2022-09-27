@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Play - GCS</title>
+    <link rel="icon" href="../images/logo_32x32_transparent.png">
+    
+    <!--!BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--!CommonHeader CSS-->
+    <link rel="stylesheet" href="../CommonHeader/header.css">
+
+    <!--!BS ICON-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    
+    <!--!Override css-->
+    <link rel="stylesheet" href="CatagoryStyle.css">
+
+    <Style>
+        body{
+         background-image: url(../images/googleBackground.png);
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: cover;   
+        }
+    </Style>
+</head>
+<body>
+
+    <!--!Common header & navbar-->
+
+    <!--!header-->
+    <div id="header" class="container-fluid">
+      <div class="hamburger">
+          <a href="javascript:void(0)" class="icon" onclick="hamburger()">
+              <i class="bi bi-list" style="font-size:30px"></i>
+          </a>
+      </div>
+      <div class="logo">
+          <a href="../index.html"><img src="../images/logo.png" style="height:50px"></a>
+      </div>
+      <div class="cart">
+        <a href="../Cart/cart.html"><i class="bi bi-cart"></i></a>
+        <div id="cartamount" class="cartamount">0</div>
+      </div>
+  </div>
+
+  <!--!navbar-->
+      <nav>
+          <div class="container-fluid">
+              <div class="row" id="navbar">
+                  <a href="../Login/login.html" class="col-md-2 col-12">Account</a>
+                  <a href="iTunes.html" class="col-md-2 col-12">iTunes</a>
+                  <a href="Google.html" class="col-md-2 col-12">Google Play</a>
+                  <a href="Playstation.html" class="col-md-2 col-12">Play Station</a>
+                  <a href="Nintendo.html" class="col-md-2 col-12">Nintendo</a>
+                  <a href="../AboutUs/aboutus.html" class="col-md-2 col-12">About Us</a>
+              </div>
+          </div>
+      </nav>
+
+      <!--!Shop generator-->
+      <div class="container-fluid" id="maincontent">
+        <div class="row justify-content-center" id="GoogleShop">
+                
+        </div>
+      </div>
+      
+    <!--!footer -->
+    <footer> 
+        <hr>
+        <div class="container-fluid"> 
+        <div class="row">
+        <div class="col-md-3 col-sm-12">
+            <h5> Follow / Like</h5>
+        <ul>
+        <li><a href="https://www.facebook.com/" class="facebook">Facebook</a></li>
+        <li><a href="https://www.youtube.com/" class="youtube">Youtube</a></li>
+        <li><a href="https://www.instagram.com/" class="instagram">Instagram</a></li>
+        <li><a href="https://apps.apple.com/hk/app/" class="appstore">AppStore</a></li>
+        <li><a href="https://play.google.com/store/apps" class="googleplay">GooglePlay</a></li>
+        </ul>
+        </div>
+
+        <div class="col-md-3 col-sm-12">
+            <h5>Contact Information</h5>
+        <ul>
+        <li><a href="../Home/Home.html" class="gcs">GCS</a></li>
+        <li><a href="aboutus.html" class="groupc">Group C</a></li>
+        <li><a href="aboutus.html" class="tst">Tsmi Sha Tsui, Kowloon, H.K.</a></li> 
+        <li><a href="https://www.yahoo.com/" class="yahoo">Email: abc@gcs.gcs</a></li>
+        </ul>
+        </div>
+
+        <div class="col-md-3 col-sm-12">
+            <h5>Navigation</h5>
+        <ul>
+        <li><a href="../Home/Home.html" class="home">Home</a></li>
+        <li><a href="aboutus.html" class="upgrade">Upgrade</a></li>
+        <li><a href="aboutus.html" class="faqs">FAQs</a></li>
+        <li><a href="aboutus.html" class="support">Support</a></li>
+        <li><a href="aboutus.html" class="tac">Terms and conditions</a></li>
+        </ul>
+        </div>
+
+        <div class="col-md-3 col-sm-12">
+            <h5>Newsletter</h5>
+            <ul>
+            <li><label for="email"></label>Enter your email & subscribe newsletter.</label></li>
+            <li><input class="email" type="email" id="email" name="email" placeholder="Enter email" size="15"></li>
+            <li><input type="submit" value="submit"></li>
+            </ul>
+
+        </div>
+        </div> 
+    </div>      
+
+        <!--!back to top -->
+
+        <div style="text-align: right;"> 
+            <a href="#top"><img src="../images/222.jpg" alt="top" style="width:60px;height:60px;"><br><small>back to top</small></a>
+        </div>
+
+        <!--!copyright -->
+        <hr>
+        <div style="text-align: center;"> &copy; 2022 GCS, GROUP C LIMITED. ALL RIGHTS RESERVED. </div>
+
+    </footer>
+
+</body>
+<script src="../CommonHeader/header.js"></script>
+<script src="Google.js"></script>
+</html>

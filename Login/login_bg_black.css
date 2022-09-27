@@ -1,0 +1,94 @@
+/*----- login -------
+----------------------*/
+body, html {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #222222;
+    background-color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-style: normal;
+}
+.icon-container {
+    background-color: white;
+    padding-left: 2rem;
+}
+.container-fluid {
+    padding: 1rem 0;
+}
+/*----tab btn----*/
+.nav-tabs {
+    border-style: none;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border-style: none;
+}
+.nav-tabs .nav-link {
+    border-style: none;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+
+/*----tab content----*/
+.tab-content {
+    background-color: white;
+}
+
+.media-container {
+    text-align: center;
+}
+.media-icon {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 55px;
+}
+
+/*----icon-border----*/
+.media-icon a {
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.media-icon a:hover {
+    border: 5px solid rgb(207, 207, 207);
+    border-radius: 50%;
+}
+
+/*------or-------*/
+.hr-container {
+    padding: 0 3rem;
+}
+.hr-sect {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: rgba(0, 0, 0,);
+	font-size: 18px;
+	margin: 8px 0px;
+}
+.hr-sect::before,
+.hr-sect::after {
+	content: "";
+	flex-grow: 1;
+	background: rgba(0, 0, 0, 0.35);
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 16px;
+}
+
+/*------form-------*/
+.form-container {
+    padding: 0 4rem;
+}
+
+/*----signInpage----*/
+.forgotPw a {
+    text-align: center;
+    text-decoration: none; 
+}
+

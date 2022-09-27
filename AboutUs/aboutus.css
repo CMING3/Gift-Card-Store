@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "myfont";
+    src: url("../font/basic_alphabet.woff") format('woff');
+  }
+  @font-face {
+    font-family: "myfont";
+    src: url("../font/basic_alphabet.woff") format('woff');;
+  }
+*{
+    font-family: myfont;
+}
+/**
+*! content background
+**/
+
+#cosplaygirl {
+    background-image: url('../images/111.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 85vh;
+ }
+
+/**
+*! content boxes style
+**/
+h4 {
+    color: black;
+}
+
+p { 
+    color: white;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: left;
+    background-color: rgb(181, 180, 180);
+}

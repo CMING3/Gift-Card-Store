@@ -1,0 +1,54 @@
+/**
+*! Change cursor icon on BS icons to finger
+**/
+i{
+    cursor: pointer;
+}
+/**
+*! Product Cards Styles here
+**/
+.item{
+    border:1px solid black;
+    border-radius: 4px;
+    height:max-content;
+    margin:10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    overflow:inherit;
+    background-color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.priceWithQuantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+}
+
+.bi-dash-lg{
+    border:1px solid black;
+    border-radius: 4px;
+    padding: 0px 3px;
+    color:red;
+}
+.bi-plus-lg{
+    border:1px solid black;
+    border-radius: 4px;
+    padding: 0px 3px;
+    color:green;
+}
+
+/**
+*! footer style here
+**/
+footer{
+    background-color: #fff;
+}

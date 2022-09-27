@@ -1,0 +1,73 @@
+i{
+    cursor: pointer;
+}
+
+#cart-item-box{
+    border: 1px solid black;
+    max-height: 85vh;
+    overflow: scroll;
+}
+
+#buttonwithsubtotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.subtotal{
+    display: flex;
+    flex-direction: row; 
+    gap:2px;
+    font-size: 20px;
+}
+#cart-item-inner{
+    padding: 0px 20px;;
+}
+#cart-item-card{
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+#payment-method{
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    min-height: 85vh;
+    padding: 10px;
+}
+
+@media screen and (max-width:450px) {
+    h5{font-size: 16px;}
+}
+
+.priceWithQuantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+}
+
+.bi-dash-lg{
+    border:1px solid black;
+    border-radius: 4px;
+    padding: 0px 3px;
+    color:red;
+}
+.bi-plus-lg{
+    border:1px solid black;
+    border-radius: 4px;
+    padding: 0px 3px;
+    color:green;
+}
